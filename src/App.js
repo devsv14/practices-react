@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react';
+/* import Propiedades from './componentes/Header' */
+import Propiedades from './componentes/Propiedades';
+/* import Estado from './componentes/Estado'; */
+import RenderizadoCondicional  from './componentes/RenderizadoCondicinal';
+import Profile from './componentes/Imagen';
+const App = () => {
+  const name = 'myPage';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>     
+      <h1>My App {name}</h1>  
+      <hr />
+     <Propiedades cadena="Esto es una cadena de texto" numero="19"
+      edad = {20}
+     />
+    <hr/>
+    <Profile/>
+    <hr />
+    <RenderizadoCondicional/>
+    </div> 
   );
-}
+} 
 
 export default App;
