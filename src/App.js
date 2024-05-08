@@ -4,6 +4,7 @@ import Propiedades from './componentes/Propiedades';
 /* import Estado from './componentes/Estado'; */
 import RenderizadoCondicional  from './componentes/RenderizadoCondicinal';
 import Profile from './componentes/Imagen';
+import RenderizadoElementos from './componentes/RenderizadoElementos';
 const App = () => {
   const name = 'myPage';
   return (
@@ -17,6 +18,7 @@ const App = () => {
     <Profile/>
     <hr />
     <RenderizadoCondicional/>
+    <RenderizadoElementos/>
     </div> 
   );
 } 
