@@ -9,7 +9,9 @@ console.log(titulo)
     <a className="navbar-brand" href="#">{titulo}</a>
   </div>
 </nav>
-
+    <div>
+      
+    </div>
     </div>
   )
 }

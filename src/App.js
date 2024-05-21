@@ -5,6 +5,7 @@ import Propiedades from './componentes/Propiedades';
 import RenderizadoCondicional  from './componentes/RenderizadoCondicinal';
 import Profile from './componentes/Imagen';
 import RenderizadoElementos from './componentes/RenderizadoElementos';
+import Eventos from './componentes/Eventos';
 const App = () => {
   const name = 'myPage';
   return (
@@ -19,6 +20,8 @@ const App = () => {
     <hr />
     <RenderizadoCondicional/>
     <RenderizadoElementos/>
+    <hr/>
+    <Eventos />
     </div> 
   );
 } 
